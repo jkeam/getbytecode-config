@@ -6,6 +6,6 @@ spec:
  template:
   spec:
    containers:
-    - image: jonnyman9/ruby27-diss-service
+    - image: jonnyman9/ruby27-diss-service@sha256:da0c9476ef75b5a9aec21e8bba063d735c21be6ce446fde3eb6706bf29ef034a
       ports:
         - containerPort: 3000
