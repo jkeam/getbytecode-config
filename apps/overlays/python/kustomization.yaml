@@ -1,0 +1,5 @@
+resources:
+  - python36
+  - python37
+  - python38
+  - python39

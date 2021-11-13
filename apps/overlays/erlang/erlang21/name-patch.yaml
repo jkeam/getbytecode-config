@@ -1,0 +1,3 @@
+- op: replace
+  path: /metadata/name
+  value: erlang21-api

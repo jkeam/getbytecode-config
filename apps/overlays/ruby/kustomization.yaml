@@ -1,0 +1,5 @@
+resources:
+  - ruby25
+  - ruby26
+  - ruby27
+  - ruby30
