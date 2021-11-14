@@ -6,6 +6,6 @@ spec:
  template:
   spec:
    containers:
-    - image: jonnyman9/java8-diss-service
+    - image: jonnyman9/java8-diss-service@sha256:a85804f8686872e24fb0587ca00df047dcb18573301707e4f856007601414193
       ports:
         - containerPort: 3000
