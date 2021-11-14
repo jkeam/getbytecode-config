@@ -6,4 +6,15 @@ spec:
  template:
   spec:
    containers:
-    - image: jonnyman9/ruby-disassembler-frontend@sha256:5ee18745f92123c9470012f45aabfac4a1ca887536d2a303181c4c3dbd4728ea
+    - image: jonnyman9/ruby-disassembler-frontend@sha256:92f3a66f59d6fa896b8d1732edb87abc7d56bf83a0f8c6f4b371e0e153d0967a
+---
+
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+ name: java-frontend
+spec:
+ template:
+  spec:
+   containers:
+    - image: jonnyman9/java-disassembler-frontend@sha256:5ee18745f92123c9470012f45aabfac4a1ca887536d2a303181c4c3dbd4728ea
