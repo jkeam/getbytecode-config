@@ -1,0 +1,9 @@
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+ name: ruby-frontend
+spec:
+ template:
+  spec:
+   containers:
+    - image: jonnyman9/ruby-disassembler-frontend@sha256:5ee18745f92123c9470012f45aabfac4a1ca887536d2a303181c4c3dbd4728ea
