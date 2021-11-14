@@ -17,4 +17,4 @@ spec:
  template:
   spec:
    containers:
-    - image: jonnyman9/java-disassembler-frontend@sha256:5ee18745f92123c9470012f45aabfac4a1ca887536d2a303181c4c3dbd4728ea
+    - image: jonnyman9/java-disassembler-frontend@sha256:63d432baa1cd5bb44af4f9f4383542d6cd8504a9e46fee1daa3adde589d77cad
