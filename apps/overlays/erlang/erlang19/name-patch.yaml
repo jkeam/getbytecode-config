@@ -1,3 +1,0 @@
-- op: replace
-  path: /metadata/name
-  value: erlang19-api

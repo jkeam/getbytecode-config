@@ -6,6 +6,6 @@ spec:
  template:
   spec:
    containers:
-    - image: jonnyman9/erlang23-diss-service
+    - image: jonnyman9/erlang23-diss-service@sha256:a2348058f6b355983094a64c212ec4430dee00ef117b8f14ac9424667facf73c
       ports:
         - containerPort: 3000

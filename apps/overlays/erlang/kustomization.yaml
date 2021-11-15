@@ -1,7 +1,4 @@
 resources:
-  - erlang17
-  - erlang18
-  - erlang19
   - erlang20
   - erlang21
   - erlang22

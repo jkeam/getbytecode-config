@@ -106,6 +106,19 @@ data:
     default-external-scheme: "https"
 ```
 
+### Scale to 0
+It takes too long to scale from 0, so we are disabling that feature.  This is the following configuration, but instead of just applying it, edit this config and change the `enable-scale-to-zero` in both data as shown below, but also in the endpoint `getbytecodeapi: |`.
+
+```
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: config-autoscaler
+  namespace: knative-serving
+data:
+  enable-scale-to-zero: "false"
+```
+
 
 ### Teardown
 ```

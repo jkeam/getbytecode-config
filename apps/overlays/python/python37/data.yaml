@@ -6,6 +6,6 @@ spec:
  template:
   spec:
    containers:
-    - image: jonnyman9/python37-diss-service
+    - image: jonnyman9/python37-diss-service@sha256:dd2cfed0b305c5f8a88d1fe629e4a3e6a194066b062a64349dcff53c2c902b6c
       ports:
         - containerPort: 3000
